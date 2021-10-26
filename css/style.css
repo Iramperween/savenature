@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    font-size: 2.1rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 2rem;
+}
+.logo:hover{
+    color: rgb(108, 235, 23);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    color: white;
+    padding: 26px 30px;
+}
+.nav-list li{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-list li:hover{
+    color: rgb(108, 235, 23);
+}
+
+.rightnav{
+    /* background-color:rgb(0, 0, 0); */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 3px solid rgb(18, 124, 18);
+    border-radius: .7rem;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.fhalf{
+   width: 75%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.shalf{
+   width: 30%;
+}
+
+.shalf img{
+    width: 150%;
+    /* padding: 3px 0; */
+    border: 3px solid rgb(2, 56, 6);
+    border-radius: 200px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 30px;
+}
+
+
+.text-small{
+    font-size: 18px;
+}
+
+.section-t .text-big{
+    font-size: 22px;
+}
+.btn{
+    background: rgb(181, 250, 78);
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(3, 121, 3);
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(20, 104, 3);
+}
+.btn-c{
+    color: rgb(255, 253, 253);
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgb(1, 65, 12);
+    
+}
+.btn-c:hover{
+    color: rgb(43, 235, 36);
+}
+.section{
+    background-color: rgb(187, 248, 159);
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin: auto;
+}
+
+.section-t{
+    height: 400px;
+    max-width: 85%;
+}
+.section .thumbnail img{
+    width:80%;
+    border:4px solid rgb(0, 54, 0);
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+.section-left .thumbnail img{
+    width: 98%;
+    border:4px solid rgb(0, 54, 0);
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.paras{
+    padding: 0px 70px;
+}
+.contact{
+    background-color: rgb(171, 240, 162);
+    height: 730px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 35px;
+}
+
+.form{
+    max-width: 800px;
+    margin: 26px auto;
+}
+.form-input{
+    margin: 15px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid rgb(2, 56, 2);
+    border-radius: 6px;
+}
+
+.text-footer{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
